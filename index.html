@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pong</title>
+    <script src="./pong.js"></script>
+    <style>
+    body {
+        width: 100vw;
+        height: 98vh;
+        margin: 0;
+        background-color: black;
+        color: white;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+    }
+    #main {
+        border: 5px solid white;
+        width: 800px;
+        height: 600px;
+    }
+    </style>
+</head>
+<body onload="init()">
+
+    <canvas id="main" width="800" height="600"></canvas>
+    <p>Use Arrow Keys to play, bitch</p>
+
+</body>
+</html>
